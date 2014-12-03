@@ -3,7 +3,6 @@ package com.dem.test;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
-import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -13,9 +12,9 @@ import android.webkit.WebViewClient;
  * 项目名称：WebViewTest    
  * 类名称：MainActivity    
  * 类描述：    
- * 创建人：Brian    
+ * 创建人：Le    
  * 创建时间：2014年11月28日 下午2:34:51    
- * 修改人：Brian    
+ * 修改人：Le      
  * 修改时间：2014年11月28日 下午2:34:51    
  * 修改备注：    
  * @version     
@@ -25,6 +24,7 @@ public class MainActivity extends Activity {
 	private WebView mWebView;
 	private WebSettings mWebSettings;
 	String mPostData = "";
+	//测试github。
 
 	@SuppressLint("SetJavaScriptEnabled")
 	@Override
@@ -32,7 +32,6 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		mWebView = new WebView(this);
 		setContentView(mWebView);
-		
 
 		String _userName = "015611733173";
 		String _psw = "3333333";
