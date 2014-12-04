@@ -10,8 +10,8 @@ import android.webkit.WebViewClient;
 /**
  * 
  * 
- * ÏîÄ¿Ãû³Æ£ºWebViewTest ÀàÃû³Æ£ºMainActivity ÀàÃèÊö£º ´´½¨ÈË£ºLe ´´½¨Ê±¼ä£º2014Äê11ÔÂ28ÈÕ ÏÂÎç2:34:51
- * ĞŞ¸ÄÈË£ºLe ĞŞ¸ÄÊ±¼ä£º2014Äê11ÔÂ28ÈÕ ÏÂÎç2:34:51 ĞŞ¸Ä±¸×¢£º
+ * é¡¹ç›®åç§°ï¼šWebViewTest ç±»åç§°ï¼šMainActivity ç±»æè¿°ï¼š åˆ›å»ºäººï¼šLe åˆ›å»ºæ—¶é—´ï¼š2014å¹´11æœˆ28æ—¥ ä¸‹åˆ2:34:51
+ * ä¿®æ”¹äººï¼šLe ä¿®æ”¹æ—¶é—´ï¼š2014å¹´11æœˆ28æ—¥ ä¸‹åˆ2:34:51 ä¿®æ”¹å¤‡æ³¨ï¼š
  * 
  * @version
  *
@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
 
     String mPostData = "";
 
-    // ²âÊÔgithub¡£
+    // ï¿½ï¿½ï¿½ï¿½githubï¿½ï¿½
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new WebViewClient());
         String str = "http://data2.contec365.com/wx_mobile";
         mWebView.loadUrl(str);
-        System.out.println(" Éú³Éappp");
+        System.out.println(" ï¿½ï¿½ï¿½ï¿½appp");
     }
 
 }
