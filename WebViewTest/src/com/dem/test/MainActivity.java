@@ -23,7 +23,6 @@ public class MainActivity extends Activity {
 
     String mPostData = "";
 
-    // ����github��
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
