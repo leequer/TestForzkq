@@ -44,10 +44,11 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new WebViewClient());
         String str = "http://data2.contec365.com/wx_mobile";
         mWebView.loadUrl(str);
+        System.out.println(" ����appp 1548");
     }
     public static String getName(){
         
-        return "zkq upload  name ";
+        return "zkq upload  name 1548";
     }
 
 }
