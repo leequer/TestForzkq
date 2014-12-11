@@ -44,7 +44,6 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new WebViewClient());
         String str = "http://data2.contec365.com/wx_mobile";
         mWebView.loadUrl(str);
-        System.out.println(" ����appp");
     }
     public static String getName(){
         
