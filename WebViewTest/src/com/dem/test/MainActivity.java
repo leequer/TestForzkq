@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
     }
     public static String getName(){
         
-        return "zkq upload ";
+        return "zkq upload  name ";
     }
 
 }
