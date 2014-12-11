@@ -47,5 +47,9 @@ public class MainActivity extends Activity {
         mWebView.loadUrl(str);
         System.out.println(" ����appp");
     }
+    public static String getName(){
+        
+        return "zkq upload ";
+    }
 
 }
